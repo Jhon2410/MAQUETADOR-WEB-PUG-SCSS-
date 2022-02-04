@@ -69,6 +69,22 @@ body {
           color: #fff; }
         body .caja .div_presented .btn-options .btn-info {
           background: #f2f2f2; }
+  body .cards {
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    body .cards .card {
+      background: #fff;
+      margin: auto 25px;
+      position: relative;
+      z-index: 5; }
+      body .cards .card img {
+        width: 100%; }
+      body .cards .card .subTitleImg {
+        position: relative;
+        top: -32px;
+        color: #fff; }
 
 .red {
   background: red; }
