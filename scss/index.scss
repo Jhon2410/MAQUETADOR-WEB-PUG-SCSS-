@@ -80,10 +80,6 @@ body {
                     float: right;
                     display: flex;
                     flex-direction: column;
-
-
-
-
                 }
 
 
@@ -175,16 +171,37 @@ body {
         background-color: #fff;
         padding: 25px 10%;
         justify-content: space-between;
-        .interesting-stuff{
-            margin: auto 25px;
-            .item-interesting{
+
+        .interesting-stuff {
+            margin: 0px 25px;
+
+            .item-interesting {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                .img-interesting{
+
+                .img-interesting {
                     width: 100px;
                     margin: 5px;
                     border-radius: 5px;
                 }
+            }
+        }
+    }
+
+    .footer {
+        background-color: #f4f4f4;
+        padding: 25px 10%;
+
+        .copy{
+            text-align: center;
+            color: #444444;
+            margin: 0;
+        }
+        .links_footer{
+            display: flex;
+            justify-content: space-between;
+            .items-links{
+                display: grid;
             }
         }
     }

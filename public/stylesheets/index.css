@@ -107,7 +107,7 @@ body {
     padding: 25px 10%;
     justify-content: space-between; }
     body .about-section .interesting-stuff {
-      margin: auto 25px; }
+      margin: 0px 25px; }
       body .about-section .interesting-stuff .item-interesting {
         display: grid;
         grid-template-columns: repeat(2, 1fr); }
@@ -115,3 +115,15 @@ body {
           width: 100px;
           margin: 5px;
           border-radius: 5px; }
+  body .footer {
+    background-color: #f4f4f4;
+    padding: 25px 10%; }
+    body .footer .copy {
+      text-align: center;
+      color: #444444;
+      margin: 0; }
+    body .footer .links_footer {
+      display: flex;
+      justify-content: space-between; }
+      body .footer .links_footer .items-links {
+        display: grid; }
