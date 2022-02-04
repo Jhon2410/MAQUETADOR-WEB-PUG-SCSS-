@@ -3,17 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 body{
     background:#ececec;
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+
+    padding: 25px 10%;
     header{
         padding: 25px;
+        padding-bottom: 35px;
         text-align: end;
         position: relative;
         .brand{
-            color: rgb(231, 45, 45);
+            color: #f3453d;
             position: absolute;
             top: 0;
             left:25px;
             display: inline-block;
+            font-family: 'Oleo Script', cursive;
+
         }
         .navBar{
             position: relative;
@@ -27,7 +32,7 @@ body{
             justify-content: end;
             font-family: 'Open Sans', sans-serif;
             .selected{
-                background: rgb(31, 28, 28);
+                background: #444444;
                 color: white;
 
             }
@@ -38,10 +43,59 @@ body{
                border-radius: 5px;
                outline: none;
                text-decoration: none;
-            color: rgb(31, 28, 28);
+            color: #444444;
            }
            
         }
+    }
+
+    .caja{
+        background-color: #fff;
+        width: 100%;
+        height: 200px;
+        padding: 20px 5px;
+        border-radius: 2px;
+        position: relative;
+        .div_presented{
+            right: 0;
+            display: flex;
+            width: 80%;
+            margin: auto;
+            .subtitle{
+                font-size: 1.5em;
+
+            }
+          
+            .btn-options{
+                float: right;
+                display: flex;
+                flex-direction: column;
+                .btn{
+                    padding: 20px 35px;
+                    margin: 5px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: bold;
+                    font-size: large;
+                    outline: none;
+                    border: none;
+                    border-radius: 5px;
+                    width: 100%;
+                    line-height: 1px;
+                }
+                .btn-play{
+                    background: #1591c4;
+                    color: #fff;
+                }
+                .btn-info{
+                    background: #f2f2f2;
+                }
+
+
+            }
+           
+            
+        }
+
     }
   
    
