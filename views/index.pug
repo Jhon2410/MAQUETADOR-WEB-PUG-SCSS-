@@ -1,56 +1,62 @@
 extends layout
 
 block content
-  header 
-    h1(class="brand") mylorem
-    navBar
-      div(class="links")
-        a(class="selected" href="#") welcome
-        a(class="" href="#")  dropdown
-        a(class="" href="#")  left slidebar
-        a(class="" href="#")  rigth slidebar
-        a(class="" href="#")  no sliderbar
-  div(class="caja")
-    div(class="div_presented")
-      div
-        h5(class="subtitle" ) Hi, This is lorem.
-        p(style="font-size:1rem;") Lorem ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
-      div(class="btn-options") 
-        button(class="btn btn-play") Ok, let´s go
-          span 
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+  div(class="contenedor")
+    header 
+      h1(class="brand") mylorem
+      navBar
+        div(class="links")
+          a(class="selected" href="#") welcome
+          a(class="" href="#")  dropdown
+          a(class="" href="#")  left slidebar
+          a(class="" href="#")  rigth slidebar
+          a(class="" href="#")  no sliderbar
+    div(class="caja")
+      div(class="div_presented")
+        div
+          h5(class="subtitle" ) Hi, This is lorem.
+          p(style="font-size:1rem;") Lorem ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+        div(class="btn-options") 
+          button(class="btn btn-play") Ok, let´s go
+            span 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+              </svg>
+            
+          button(class="btn btn-info") more info  
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
             </svg>
-          
-        button(class="btn btn-info") more info  
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
-          </svg>
-     
-  section(class="cards")
-      div(class="card")
-        div(class="imgCard")
-          img(src="/images/image1.bmp")
-          span(class="subTitleImg") An interesting title
-        div(class="bodyCard")
-          h4(class="titleImg")
-          p(class="contexCard") Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui consequatur dignissimos omnis obcaecati magni amet tenetur vitae, laudantium voluptas quae ab, iure adipisci, aliquid sequi. Ad inventore magni voluptatum!  
       
-      
-      div(class="card")
-        div(class="imgCard")
-          img(src="/images/image2.bmp")
-          span(class="subTitleImg") An interesting title
-        div(class="bodyCard")
-          h4(class="titleImg")
-          p(class="contexCard") Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui consequatur dignissimos omnis obcaecati magni amet tenetur vitae, laudantium voluptas quae ab, iure adipisci, aliquid sequi. Ad inventore magni voluptatum!  
-      
-      
-      div(class="card")
-        div(class="imgCard")
-          img(src="/images/image3.bmp")
-          span(class="subTitleImg") An interesting title
-        div(class="bodyCard")
-          h4(class="titleImg")
-          p(class="contexCard") Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui consequatur dignissimos omnis obcaecati magni amet tenetur vitae, laudantium voluptas quae ab, iure adipisci, aliquid sequi. Ad inventore magni voluptatum!  
+    section(class="cards")
+        div(class="card")
+          div(class="imgCard")
+            img(src="/images/image1.bmp")
+            span(class="subTitleImg") An interesting title
+          div(class="bodyCard")
+            h4(class="titleImg") Maybe here as well I think
+            p(class="contexCard") Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui consequatur dignissimos omnis obcaecati magni amet tenetur vitae, laudantium voluptas quae ab, iure adipisci, aliquid sequi. Ad inventore magni voluptatum!  
+        
+        
+        div(class="card")
+          div(class="imgCard")
+            img(src="/images/image2.bmp")
+            span(class="subTitleImg") An interesting title
+          div(class="bodyCard")
+            h4(class="titleImg") this is also an interestin subtitle
+            p(class="contexCard") Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui consequatur dignissimos omnis obcaecati magni amet tenetur vitae, laudantium voluptas quae ab, iure adipisci, aliquid sequi. Ad inventore magni voluptatum!  
+        
+        
+        div(class="card")
+          div(class="imgCard")
+            img(src="/images/image3.bmp")
+            span(class="subTitleImg") Oh,  and finally
+          div(class="bodyCard")
+            h4(class="titleImg") Here´s another intriguing subtitle
+            p(class="contexCard")  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis qui consequatur dignissimos omnis obcaecati magni amet tenetur vitae, laudantium voluptas quae ab, iure adipisci, aliquid sequi. Ad inventore magni voluptatum!  
 
+  section(class="about-section")
+    div(class="interesting-stuff")
+     img(src="/images/image1.bmp")
+    div(class="what-about")
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae dolorum ut quae! Mollitia enim veritatis minus modi voluptatem, consectetur commodi impedit, blanditiis, officiis iure odit nemo qui ut ad expedita?Quod asperiores deserunt illo ducimus aliquid, consequuntur error fuga totam earum officiis pariatur sunt? Expedita recusandae dicta eius, beatae unde corporis ea quo consectetur itaque, eveniet officia sequi sapiente iste.Eaque nam facilis nisi nostrum in inventore dolores velit, a est minima consequatur ipsum itaque enim culpa et amet sapiente provident earum temporibus dolorem reprehenderit adipisci molestias error dignissimos? Deserunt.Mollitia, tempora voluptatibus. Rem doloribus odit saepe libero ipsa, odio ab adipisci neque? Numquam obcaecati repellat quis ipsa odio esse, aut, soluta repellendus tempore quod minus qui iure voluptatem aliquam!Laudantium ad impedit reiciendis ratione dolorem veritatis voluptatum repudiandae magnam et quam incidunt, fuga doloremque corporis ducimus ea sed qui. Minus ipsa at aut eum dolores vero inventore maxime molestias!
