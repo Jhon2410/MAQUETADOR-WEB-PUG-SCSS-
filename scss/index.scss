@@ -46,14 +46,7 @@ body {
 
                 }
 
-                a {
-                    margin: auto 5px;
-                    padding: 5px;
-                    border-radius: 5px;
-                    outline: none;
-                    text-decoration: none;
-                    color: #444444;
-                }
+               
 
             }
         }
@@ -143,6 +136,18 @@ body {
 
 
     }
+    a {
+        margin: auto 5px;
+        padding: 5px;
+        border-radius: 5px;
+        outline: none;
+        text-decoration: none;
+        color: #444444;
+    }
+
+    .underline{
+        text-decoration: underline;
+    }
 
     .btn {
         padding: 20px 35px;
@@ -167,21 +172,20 @@ body {
     }
 
     .about-section {
-        display: flex;
+        display: grid;
         background-color: #fff;
-        padding: 25px 10%;
-        justify-content: space-between;
-
+        padding: 25px 12%;
+        grid-template-columns: 35% 65%;
+        
         .interesting-stuff {
             margin: 0px 25px;
-
             .item-interesting {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
 
                 .img-interesting {
-                    width: 100px;
-                    margin: 5px;
+                    width: 110px;
+                    margin: 10px;
                     border-radius: 5px;
                 }
             }
@@ -196,6 +200,7 @@ body {
             text-align: center;
             color: #444444;
             margin: 0;
+            margin-top: 45px;
         }
         .links_footer{
             display: flex;
