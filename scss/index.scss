@@ -1,161 +1,191 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-body{
+
+body {
     margin: 0;
     padding: 0;
-    .contenedor{
-        background:#ececec;
+
+    .contenedor {
+        background: #ececec;
         font-family: 'Open Sans', sans-serif;
         padding: 25px 10%;
-        header{
+
+        header {
             padding: 25px;
             padding-bottom: 35px;
             text-align: end;
             position: relative;
-            .brand{
+
+            .brand {
                 color: #f3453d;
                 position: absolute;
                 top: 0;
-                left:25px;
+                left: 25px;
                 display: inline-block;
                 font-family: 'Oleo Script', cursive;
-    
+
             }
-            .navBar{
+
+            .navBar {
                 position: relative;
                 top: 0;
                 right: 0;
-    
-            
+
+
             }
-            .links{
+
+            .links {
                 display: flex;
                 justify-content: end;
                 font-family: 'Open Sans', sans-serif;
-                .selected{
+
+                .selected {
                     background: #444444;
                     color: white;
-    
+
                 }
-             
-               a{
-                   margin: auto 5px;
-                   padding: 5px;
-                   border-radius: 5px;
-                   outline: none;
-                   text-decoration: none;
-                color: #444444;
-               }
-               
+
+                a {
+                    margin: auto 5px;
+                    padding: 5px;
+                    border-radius: 5px;
+                    outline: none;
+                    text-decoration: none;
+                    color: #444444;
+                }
+
             }
         }
-    
-        .caja{
+
+        .caja {
             background-color: #fff;
             width: 100%;
             height: 200px;
             padding: 20px 5px;
             border-radius: 2px;
             position: relative;
-            .div_presented{
+
+            .div_presented {
                 right: 0;
                 display: flex;
                 width: 80%;
                 margin: auto;
-                .subtitle{
+
+                .subtitle {
                     font-size: 1.5em;
                 }
-              
-                .btn-options{
+
+                .btn-options {
                     float: right;
                     display: flex;
                     flex-direction: column;
-                    .btn{
-                        padding: 20px 35px;
-                        margin: 5px;
-                        font-family: 'Open Sans', sans-serif;
-                        font-weight: bold;
-                        font-size: large;
-                        outline: none;
-                        border: none;
-                        border-radius: 5px;
-                        width: 100%;
-                        line-height: 1px;
-                    }
-                    .btn-play{
-                        background: #1591c4;
-                        color: #fff;
-                    }
-                    .btn-info{
-                        background: #f2f2f2;
-                    }
-    
-    
+
+
+
+
                 }
-               
-                
+
+
             }
-    
+
         }
-    
-        .cards{
+
+        .cards {
             margin: 30px 0px;
             display: flex;
             justify-content: space-between;
-            .card{
+
+            .card {
                 background: #fff;
-                margin: auto 25px ;
+                margin: auto 25px;
                 position: relative;
                 border-radius: 5px;
                 overflow: hidden;
-    
+
                 z-index: 5;
-                .imgCard{
-                    img{
+
+                .imgCard {
+                    img {
                         width: 100%;
                     }
-                    .subTitleImg{
+
+                    .subTitleImg {
                         position: relative;
-                        top:-32px;
+                        top: -32px;
                         font-family: 'Open Sans', sans-serif;
                         text-shadow: 25px 25px 5px;
                         color: #fff;
                         padding: 5px;
                     }
-                    
+
                 }
-    
-                .bodyCard{
+
+                .bodyCard {
                     position: relative;
                     top: -35px;
                     padding: 1px 15px;
-                    .titleImg{
-                        color:#444444;
+
+                    .titleImg {
+                        color: #444444;
                     }
-                    .contexCard{
+
+                    .contexCard {
                         font-size: 0.7rem;
                         font-weight: 100;
                     }
-    
+
                 }
-              
-               
-               
-               
+
+
+
+
             }
         }
-    
-   
-      
-       
+
+
+
+
     }
-  
-}
-.about-section{
-    display: flex;
-    background-color: #fff;
-    padding: 15px;
-}
 
+    .btn {
+        padding: 20px 35px;
+        margin: 5px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: large;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        line-height: 1px;
+    }
 
+    .btn-play {
+        background: #1591c4;
+        color: #fff;
+    }
+
+    .btn-info {
+        background: #f2f2f2;
+    }
+
+    .about-section {
+        display: flex;
+        background-color: #fff;
+        padding: 25px 10%;
+        justify-content: space-between;
+        .interesting-stuff{
+            margin: auto 25px;
+            .item-interesting{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .img-interesting{
+                    width: 100px;
+                    margin: 5px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
