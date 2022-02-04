@@ -1,0 +1,24 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+body {
+  background: #ececec;
+  font-family: 'Oleo Script', cursive; }
+  body header {
+    padding: 25px;
+    text-align: end;
+    position: relative; }
+    body header .brand {
+      color: #e72d2d;
+      position: absolute;
+      top: 0;
+      left: 25px;
+      display: inline-block; }
+    body header .navBar {
+      position: relative;
+      top: 0;
+      right: 0; }
+      body header .navBar .link {
+        float: left; }
+
+.red {
+  background: red; }
