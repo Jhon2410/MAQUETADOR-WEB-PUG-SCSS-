@@ -1,5 +1,6 @@
 /*fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 body {
   background: #ececec;
   font-family: 'Oleo Script', cursive; }
@@ -17,8 +18,20 @@ body {
       position: relative;
       top: 0;
       right: 0; }
-      body header .navBar .link {
-        float: left; }
+    body header .links {
+      display: flex;
+      justify-content: end;
+      font-family: 'Open Sans', sans-serif; }
+      body header .links .selected {
+        background: #1f1c1c;
+        color: white; }
+      body header .links a {
+        margin: auto 5px;
+        padding: 5px;
+        border-radius: 5px;
+        outline: none;
+        text-decoration: none;
+        color: #1f1c1c; }
 
 .red {
   background: red; }
