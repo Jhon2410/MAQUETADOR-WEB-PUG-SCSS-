@@ -1,6 +1,6 @@
 # MAQUETADOR-WEB-PUG-SCSS
 
-link del proyecto corriendo : https://github.com/Jhon2410/MAQUETADOR-WEB-PUG-SCSS-
+link del proyecto corriendo :https://app-71dd054a-26c1-43a1-93d9-f9c1ce18f2e7.cleverapps.io/
 
 yarn add || npm i
 
