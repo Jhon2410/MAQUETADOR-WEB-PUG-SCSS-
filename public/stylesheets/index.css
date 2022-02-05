@@ -116,8 +116,8 @@ body {
     color: white; }
   body .btn-info {
     background: #f2f2f2; }
-  body .btn-info:hover {
-    background: #06a1e1; }
+  body .btn-play:hover {
+    background: #01acf3; }
   body .btn-info:hover {
     background: #dbd9d9; }
   body .about-section {
