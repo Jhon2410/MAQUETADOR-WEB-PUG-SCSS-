@@ -6,8 +6,7 @@
 @import "./root";
 
 body {
-    margin: 0;
-    padding: 0;
+
     background:$bg;
     
     .contenedor {
@@ -24,7 +23,6 @@ body {
             }
             
         }
-        
         header {
             padding: 25px;
             padding-bottom: 35px;
@@ -61,7 +59,9 @@ body {
                
 
         }
-
+        header:hover{
+            animation:flip 1s;
+        }
         .caja {
             background-color: $white;
             width: 100%;
@@ -95,7 +95,10 @@ body {
             margin: 30px 0px;
             display: flex;
             justify-content: space-between;
-
+            .card:hover{
+                animation: wobble 1s ;
+            
+            }
             .card {
                 background: $white;
                 margin: auto 25px;
@@ -123,15 +126,17 @@ body {
 
                 .bodyCard {
                     position: relative;
-                    top: -35px;
+                    top: -25px;
                     padding: 1px 15px;
+               
 
                     .titleImg {
                         color: $secondary;
+                        
                     }
 
                     .contexCard {
-                        font-size: 0.7rem;
+                        font-size: 0.8rem;
                         font-weight: 100;
                     }
 
@@ -156,6 +161,12 @@ body {
         outline: none;
         text-decoration: none;
         color: $secondary;
+
+    }
+    a:hover{
+        background: $secondary;
+        color: $white;
+
     }
 
     .underline{
@@ -208,7 +219,6 @@ body {
                 text-align:center;
             }
             .item-interesting {
-                
                 display: grid;
                 grid-template-columns: repeat(2, 150px);
 
@@ -242,6 +252,6 @@ body {
 
 }
 
-
+@import "./animate";
 
 @import "./medias";
