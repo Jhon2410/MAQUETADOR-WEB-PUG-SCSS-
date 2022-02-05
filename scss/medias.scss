@@ -1,0 +1,92 @@
+
+$movil: 0px;
+$max-movil:720px;
+
+@media screen and (min-width: $movil) and (max-width: $max-movil) {
+  body{
+    font-size:0.7rem;
+    padding:0;
+    margin:0;
+   
+    .about-section{
+        .what-about{
+            button{
+                width:100%;
+                font-size:14px;
+            }
+        }
+        display:flex;
+    flex-wrap:wrap;
+
+    }
+ 
+    .contenedor{
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        header{
+            padding:150px auto;
+            .brand{
+                position: absolute;
+                top: -15px;
+            
+            }
+        }
+        .caja{
+            max-height:100%;
+            overflow:scroll;
+            .div_presented{
+                position:relative;
+                display:flex;
+                flex-wrap:wrap;
+            }
+          
+        }
+        .cards{
+            display:flex;
+            flex-wrap:wrap;
+            .card{
+               margin:25px 25px;
+               .bodyCard{
+                   position:relative;
+                   top:0;
+
+               }
+      
+          }
+    }
+     
+  }
+  
+ 
+  }
+  
+}
+
+$movilModern: 721px;
+$max-movilModern:1000px;
+
+@media screen and (min-width: $movilModern) and (max-width: $max-movilModern) {
+  body{
+      font-size:0.7rem;
+  }
+  .cards{
+      display:grid;
+      grid-template-columns:(repeat(2, 1fr));
+      
+  }
+
+ 
+}
+
+$table:1000;
+$max-table:1600;
+@media screen and (min-width: $table) and (max-width: $max-table) {
+    body{
+        font-size:0.8rem;
+    }
+    h1{
+        position:absolute;
+        top:-25px;
+    }
+  }
