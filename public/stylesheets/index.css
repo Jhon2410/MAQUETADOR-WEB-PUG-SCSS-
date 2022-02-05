@@ -116,7 +116,8 @@ body {
     padding: 25px 10%; }
     body .about-section .what-about {
       font-family: 'Open Sans Condensed', sans-serif;
-      color: #444444; }
+      color: #444444;
+      letter-spacing: 1px; }
       body .about-section .what-about h5 {
         font-size: 20px;
         text-align: center; }
