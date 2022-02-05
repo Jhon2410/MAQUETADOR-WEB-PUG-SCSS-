@@ -12,36 +12,4 @@ $f4:#f4f4f4;
 $ec:#ececec;
 $c15:#1591c4;
 $f2:#f2f2f2;
-/*responsive medias*/
 
-
-$movil: 0px;
-$max-movil:400px;
-
-@media screen and (min-width: $movil) and (max-width: $max-movil) {
-  body{
-      font-size:0.5rem;
-  }
-}
-
-$movilModern: 400px;
-$max-movilModern:800px;
-
-@media screen and (min-width: $movilModern) and (max-width: $max-movilModern) {
-  body{
-      font-size:0.7rem;
-  }
- 
-}
-
-$table:800;
-$max-table:1200;
-@media screen and (min-width: $table) and (max-width: $max-table) {
-    body{
-        font-size:0.8rem;
-    }
-    h1{
-        position:absolute;
-        top:-25px;
-    }
-  }

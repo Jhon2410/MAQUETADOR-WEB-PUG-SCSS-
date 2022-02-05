@@ -190,16 +190,22 @@ body {
         background-color: $white;
         padding: $media;
         .what-about{
-    font-family: 'Open Sans Condensed', sans-serif;
-    color:$secondary;
-
+        font-family: 'Open Sans Condensed', sans-serif;
+        color:$secondary;
+        h5{
+            font-size:20px;
+            text-align:center;
+        }
             button{
                 width:70%;
             
             }
         }
         .interesting-stuff {
-            
+            .interestin-title{
+                font-size:20px;
+                text-align:center;
+            }
             .item-interesting {
                 
                 display: grid;

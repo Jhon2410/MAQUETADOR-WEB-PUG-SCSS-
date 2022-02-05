@@ -5,22 +5,6 @@
 /*medias*/
 /*fonts*/
 /*colors*/
-/*responsive medias*/
-@media screen and (min-width: 0px) and (max-width: 400px) {
-  body {
-    font-size: 0.5rem; } }
-
-@media screen and (min-width: 400px) and (max-width: 800px) {
-  body {
-    font-size: 0.7rem; } }
-
-@media screen and (min-width: 800) and (max-width: 1200) {
-  body {
-    font-size: 0.8rem; }
-  h1 {
-    position: absolute;
-    top: -25px; } }
-
 body {
   margin: 0;
   padding: 0;
@@ -133,8 +117,14 @@ body {
     body .about-section .what-about {
       font-family: 'Open Sans Condensed', sans-serif;
       color: #444444; }
+      body .about-section .what-about h5 {
+        font-size: 20px;
+        text-align: center; }
       body .about-section .what-about button {
         width: 70%; }
+    body .about-section .interesting-stuff .interestin-title {
+      font-size: 20px;
+      text-align: center; }
     body .about-section .interesting-stuff .item-interesting {
       display: grid;
       grid-template-columns: repeat(2, 150px); }
@@ -156,6 +146,7 @@ body {
       body .footer .links_footer .items-links {
         display: grid; }
 
+/*responsing desing*/
 @media screen and (min-width: 0px) and (max-width: 720px) {
   body {
     font-size: 0.7rem;
