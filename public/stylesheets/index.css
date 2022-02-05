@@ -116,6 +116,10 @@ body {
     color: white; }
   body .btn-info {
     background: #f2f2f2; }
+  body .btn-info:hover {
+    background: #06a1e1; }
+  body .btn-info:hover {
+    background: #dbd9d9; }
   body .about-section {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -239,7 +243,7 @@ div {
     transform: scaleX(1); } }
 
 /*responsing desing*/
-@media screen and (min-width: 0px) and (max-width: 720px) {
+@media screen and (min-width: 0px) and (max-width: 759px) {
   body {
     font-size: 0.7rem;
     padding: 0;
@@ -275,7 +279,7 @@ div {
             position: relative;
             top: 0; } }
 
-@media screen and (min-width: 721px) and (max-width: 1000px) {
+@media screen and (min-width: 760px) and (max-width: 1000px) {
   body {
     font-size: 0.7rem; }
   .cards {

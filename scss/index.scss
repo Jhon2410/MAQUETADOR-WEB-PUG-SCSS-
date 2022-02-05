@@ -87,6 +87,8 @@ body {
                     flex-direction: column;
                 }
 
+                
+
 
             }
 
@@ -195,6 +197,14 @@ body {
 
     .btn-info {
         background: $f2 ;
+    }
+
+    .btn-info:hover {
+        background: #06a1e1 ;
+    }
+
+    .btn-info:hover{
+        background: #dbd9d9 ;
     }
 
     .about-section {

@@ -1,6 +1,6 @@
 /*responsing desing*/
 $movil: 0px;
-$max-movil:720px;
+$max-movil:759px;
 
 @media screen and (min-width: $movil) and (max-width: $max-movil) {
   body{
@@ -64,7 +64,7 @@ $max-movil:720px;
   
 }
 
-$movilModern: 721px;
+$movilModern: 760px;
 $max-movilModern:1000px;
 
 @media screen and (min-width: $movilModern) and (max-width: $max-movilModern) {
